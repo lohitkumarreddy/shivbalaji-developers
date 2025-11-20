@@ -1,0 +1,32 @@
+{
+  "name": "shivbalaji-developers",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "seed": "ts-node prisma/seed.ts"
+  },
+  "dependencies": {
+    "next": "13.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "framer-motion": "10.12.16",
+    "@prisma/client": "5.0.0",
+    "axios": "1.4.0",
+    "jsonwebtoken": "9.0.0",
+    "bcryptjs": "2.4.3",
+    "swr": "2.1.0",
+    "clsx": "1.2.1"
+  },
+  "devDependencies": {
+    "typescript": "5.5.0",
+    "prisma": "5.0.0",
+    "ts-node": "10.9.1",
+    "tailwindcss": "3.5.0",
+    "postcss": "8.4.0",
+    "autoprefixer": "10.4.0",
+    "eslint": "8.0.0"
+  }
+}

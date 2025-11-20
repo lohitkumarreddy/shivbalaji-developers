@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+.custom-cursor { pointer-events: none; position: fixed; z-index: 9999; transform: translate(-50%, -50%); transition: width 0.14s ease, height 0.14s ease, background-color 0.14s ease; }
+
+.glass { background: rgba(255,255,255,0.6); backdrop-filter: blur(6px); border-radius: 16px; }
